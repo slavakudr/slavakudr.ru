@@ -1,3 +1,0 @@
-text
-text for push
-new text test
