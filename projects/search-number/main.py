@@ -1,7 +1,7 @@
 import random
 
 
-def guess_number():
+def main():
     print('Добро пожаловать в игру где нужно угадать число.')
     print('Введите начальное число')
     num_start = int(input())
@@ -23,4 +23,4 @@ def guess_number():
             print('Вы угадали, поздравляем!', f'Всего попыток было: {user_input_count}', sep='\n')
             break
 
-guess_number()
+main()
